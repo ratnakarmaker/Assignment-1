@@ -3,6 +3,9 @@ body{
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
 }
+.menu-bar{
+    height: 100px;
+}
 .menu{
     float: right;
     padding: 3%;
@@ -26,6 +29,9 @@ h1{
     border-radius: 2px;
     padding: 10px 20px;
 }
+.btnn3{
+    margin-top: 5%;
+}
 
 .half-width{
     width: 40%;
@@ -34,26 +40,27 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
-    height: 420px;
+    width: 80%;
+    height: 360px;
 }
 section{
     margin-left: 2%;
-    height: 500px;
+    height: 400px;
 }
-.section-one{
+.project{
     background-color: #efe8e93b;
     height: 620px;
     position: relative;
+    margin: 0;
 }
-.section-one h2{
+.project h2{
     text-align: center;
     padding: 5% 0;
     margin-bottom: 0;
 }
 .inside{
     position: absolute;
-    padding: 0px 73px;
+    padding: 0px 75px;
 }
 .third-width{
     width: 29%;
@@ -69,6 +76,35 @@ section{
     width: 100%;
     height: 180px;
 }
+/* experience area */
+.text-highlight2{
+    color:#4E85FF;
+    font-weight: 500;
+}
+.skill-parr{
+    height: 80px;
+    padding: 6%;
+}
+.skill{
+    border: 2px solid #677aec33;;
+}
+.skill-box{
+    padding: 5%;
+}
+.slice{
+    margin-left: 12%;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, #fece46, orange);
+    border-image-slice: 1;
+}
+#file{
+    width: 100%;
+}
+.progress{
+    margin-top: 2%;
+}
+
+
 .extra{
     background-image: url("shapes/Group_33094_1.png");
     background-repeat: no-repeat;
@@ -77,14 +113,16 @@ section{
     margin-left: 20%;
     margin-top: 5%;
 }
-.ex {
-    margin-left: 5%;
-    margin-top: 5%;
+.ex-inside{
+    padding: 5% 0%;
 }
-.ex h1{
+.extra-h h1{
     color: white;
 }
-.ex a{
+#btnn2{
+    padding: 35px 0px 35px 124px;
+}
+#btnn2 a{
     text-decoration: none;
     color: white;
     border-radius: 5px;
@@ -96,6 +134,7 @@ section{
     padding: 5% 40%;
     text-align: center;
     color: #010225;
+    position: relative;
 }
 .stay h5{
     text-align: center;
